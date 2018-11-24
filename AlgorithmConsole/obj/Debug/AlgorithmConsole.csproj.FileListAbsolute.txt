@@ -1,0 +1,7 @@
+C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\bin\Debug\AlgorithmConsole.exe.config
+C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\bin\Debug\AlgorithmConsole.exe
+C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\bin\Debug\AlgorithmConsole.pdb
+C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\obj\Debug\AlgorithmConsole.csprojAssemblyReference.cache
+C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\obj\Debug\AlgorithmConsole.csproj.CoreCompileInputs.cache
+C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\obj\Debug\AlgorithmConsole.exe
+C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\obj\Debug\AlgorithmConsole.pdb
