@@ -5,3 +5,9 @@ C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\obj\Debug\Algorith
 C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\obj\Debug\AlgorithmConsole.csproj.CoreCompileInputs.cache
 C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\obj\Debug\AlgorithmConsole.exe
 C:\Users\Super\source\repos\AlgorithmConsole\AlgorithmConsole\obj\Debug\AlgorithmConsole.pdb
+D:\projects\AlgorithmTest\algorithm\AlgorithmConsole\bin\Debug\AlgorithmConsole.exe.config
+D:\projects\AlgorithmTest\algorithm\AlgorithmConsole\obj\Debug\AlgorithmConsole.exe
+D:\projects\AlgorithmTest\algorithm\AlgorithmConsole\obj\Debug\AlgorithmConsole.pdb
+D:\projects\AlgorithmTest\algorithm\AlgorithmConsole\bin\Debug\AlgorithmConsole.exe
+D:\projects\AlgorithmTest\algorithm\AlgorithmConsole\bin\Debug\AlgorithmConsole.pdb
+D:\projects\AlgorithmTest\algorithm\AlgorithmConsole\obj\Debug\AlgorithmConsole.csprojResolveAssemblyReference.cache

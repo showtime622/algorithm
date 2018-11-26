@@ -11,8 +11,10 @@ namespace AlgorithmConsole
         public int count = 0;
         static void Main(string[] args)
         {
-            //TreeTraverse.traverseAllFiles(@"C:\Python34");
-            UniqueEmailAddress.NumUniqueEmails(new string[] {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com" });
+			FindDifference.FindTheDifference("abcd", "abcde");
+
+			//TreeTraverse.traverseAllFiles(@"C:\Python34");
+			UniqueEmailAddress.NumUniqueEmails(new string[] {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com" });
             string x1 = "test.mail+111";
             x1 = x1.Replace(".", "");
             string xx = TreeTraverse.getSpecificFile(@"C:\Python34", "crlf.py");
