@@ -48,6 +48,7 @@ namespace AlgorithmConsole
                 }
             }
 
+			return A;
         }
 		
 		  public static int[] SortArrayByParityII(int[] A)

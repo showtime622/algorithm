@@ -11,17 +11,23 @@ namespace AlgorithmConsole
         public int count = 0;
         static void Main(string[] args)
         {
-			FindDifference.FindTheDifference("abcd", "abcde");
+			//int tempN = 5;
 
-			//TreeTraverse.traverseAllFiles(@"C:\Python34");
-			UniqueEmailAddress.NumUniqueEmails(new string[] {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com" });
-            string x1 = "test.mail+111";
-            x1 = x1.Replace(".", "");
-            string xx = TreeTraverse.getSpecificFile(@"C:\Python34", "crlf.py");
+			//List<int> testcases = new List<int>();
 
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Total file count " + TreeTraverse.count.ToString());
-            Console.ReadKey();
-        }
+			//bool result1 = BinaryNumberwithAlternatingBits.HasAlternatingBits(5);
+
+			//FindDifference.FindTheDifference("abcd", "abcde");
+
+			////TreeTraverse.traverseAllFiles(@"C:\Python34");
+			//UniqueEmailAddress.NumUniqueEmails(new string[] {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com" });
+			//         string x1 = "test.mail+111";
+			//         x1 = x1.Replace(".", "");
+			//         string xx = TreeTraverse.getSpecificFile(@"C:\Python34", "crlf.py");
+
+			//         Console.WriteLine("Hello World!");
+			//         Console.WriteLine("Total file count " + TreeTraverse.count.ToString());
+			//         Console.ReadKey();
+		}
     }
 }

@@ -1,2 +1,4 @@
 *.pdb
+*.exe
 AlgorithmConsole/bin/Debug/AlgorithmConsole.exe
+.vs

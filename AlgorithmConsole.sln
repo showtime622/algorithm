@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmConsole", "AlgorithmConsole\AlgorithmConsole.csproj", "{0704B9E2-75DA-4CD9-BBB9-9632C7115EA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoTest", "AlgoTest\AlgoTest.csproj", "{EB24C371-5E28-42D2-B771-342C2254B7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo.Lib", "Algo.Lib\Algo.Lib.csproj", "{E45DA540-EC15-4A1C-ACD5-DBADEA16CB2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0704B9E2-75DA-4CD9-BBB9-9632C7115EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0704B9E2-75DA-4CD9-BBB9-9632C7115EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0704B9E2-75DA-4CD9-BBB9-9632C7115EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB24C371-5E28-42D2-B771-342C2254B7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB24C371-5E28-42D2-B771-342C2254B7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB24C371-5E28-42D2-B771-342C2254B7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB24C371-5E28-42D2-B771-342C2254B7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45DA540-EC15-4A1C-ACD5-DBADEA16CB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45DA540-EC15-4A1C-ACD5-DBADEA16CB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45DA540-EC15-4A1C-ACD5-DBADEA16CB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45DA540-EC15-4A1C-ACD5-DBADEA16CB2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

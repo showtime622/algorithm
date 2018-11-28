@@ -1,0 +1,5 @@
+D:\projects\AlgorithmTest\algorithm\Algo.Lib\bin\Debug\Algo.Lib.dll
+D:\projects\AlgorithmTest\algorithm\Algo.Lib\bin\Debug\Algo.Lib.pdb
+D:\projects\AlgorithmTest\algorithm\Algo.Lib\obj\Debug\Algo.Lib.csprojResolveAssemblyReference.cache
+D:\projects\AlgorithmTest\algorithm\Algo.Lib\obj\Debug\Algo.Lib.dll
+D:\projects\AlgorithmTest\algorithm\Algo.Lib\obj\Debug\Algo.Lib.pdb
