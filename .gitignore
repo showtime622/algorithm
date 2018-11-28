@@ -2,3 +2,5 @@
 *.exe
 AlgorithmConsole/bin/Debug/AlgorithmConsole.exe
 .vs
+*/bin/
+*/obj/
