@@ -64,6 +64,10 @@
       <Project>{e45da540-ec15-4a1c-acd5-dbadea16cb2f}</Project>
       <Name>Algo.Lib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Algo.Model\Algo.Model.csproj">
+      <Project>{48c39fde-94c1-4255-ab1c-34cf7f15015e}</Project>
+      <Name>Algo.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

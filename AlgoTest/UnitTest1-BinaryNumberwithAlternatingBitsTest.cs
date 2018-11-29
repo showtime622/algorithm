@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using Algo.Lib;
+using Algo.Model;
 
 namespace AlgoTest
 {
@@ -71,7 +72,51 @@ namespace AlgoTest
 
 		}
 
+		[TestMethod]
+		public void SearchBST_UT()
+		{
+			TreeNode root = new TreeNode(4);
+			TreeNode rootl1 = new TreeNode(2);
+			TreeNode rootr1 = new TreeNode(7);
 
+			TreeNode leftl1 = new TreeNode(1);
+			TreeNode leftr1 = new TreeNode(3);
+
+			root.left = rootl1;
+			root.right = rootr1;
+
+			rootl1.left = leftl1;
+			rootl1.right = leftr1;
+
+			TreeNode value = BinaryTreeOp.SearchBST(root, 2);
+
+			TreeNode val1 = BinaryTreeOp.SearchBSTStack(root, 2);
+
+		}
+
+		[TestMethod]
+		public void MiddleNode_UT()
+		{
+			ListNode head = new ListNode(1);
+			head.next = new ListNode(2);
+			head.next.next = new ListNode(3);
+			head.next.next.next = new ListNode(4);
+			head.next.next.next.next = new ListNode(5);
+
+			ListNode r1 = ListNodeOp.MiddleNode(head);
+
+			head = new ListNode(1);
+			ListNode r2 = ListNodeOp.MiddleNode(head);
+
+			head = null;
+			ListNode r3 = ListNodeOp.MiddleNode(head);
+			head = new ListNode(1);
+			head.next = new ListNode(2);
+			head.next.next = new ListNode(3);
+			head.next.next.next = new ListNode(4);
+
+			ListNode r4 = ListNodeOp.MiddleNode(head);
+		}
 	}
 }
 
