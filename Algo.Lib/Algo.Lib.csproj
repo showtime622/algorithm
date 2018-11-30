@@ -42,6 +42,7 @@
     <Compile Include="BinaryNumberwithAlternatingBits.cs" />
     <Compile Include="BinaryTreeOp.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="FindFileOp.cs" />
     <Compile Include="ListNodeOp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseOnlyLetters.cs" />

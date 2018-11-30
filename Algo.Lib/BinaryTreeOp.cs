@@ -8,6 +8,7 @@ namespace Algo.Lib
 {
 	public partial class BinaryTreeOp
 	{
+		private TreeNode tempNode = new TreeNode(0);
 		/// <summary>
 		/// Reference:
 		/// https://leetcode.com/problems/search-in-a-binary-search-tree/
@@ -91,6 +92,66 @@ namespace Algo.Lib
 			}
 
 			return root;
+		}
+
+		/// <summary>
+		/// https://leetcode.com/problems/trim-a-binary-search-tree/
+		/// </summary>
+		/// <param name="root"></param>
+		/// <param name="L"></param>
+		/// <param name="R"></param>
+		/// <returns></returns>
+		public static TreeNode trimBST(TreeNode root, int L, int R)
+		{
+			if (root == null)
+				return root;
+
+			if(L > R)
+			{
+				return null;
+			}
+			TreeNode temp = root;
+
+			return Traverse(temp, L, R);
+		}
+
+		public static TreeNode Traverse(TreeNode root, int L, int R)
+		{
+			if (root.val == L)
+			{
+				root.left = null;
+			}
+
+			if (root.val == R)
+			{
+				root.right = null;
+			}
+
+			if (root.val < L)
+			{
+				if (root.right != null)
+					trimBST(root.right, L, R);
+				else
+					return null;
+			}
+
+			if (root.val > R)
+			{
+				if (root.right != null)
+					trimBST(root.right, L, R);
+				else
+					return null;
+			}
+
+			if (root.val < R && root.val > L)
+			{
+				if (root.left != null)
+					trimBST(root.left, L, R);
+				if (root.right != null)
+					trimBST(root.right, L, R);
+			}
+
+
 		}
 	}
 }
