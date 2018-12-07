@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Algo.Lib
 {
-	public class ListNodeOp
+	public partial class ListNodeOp
 	{
 		/// <summary>
 		/// Reference:https:///leetcode.com/problems/middle-of-the-linked-list/

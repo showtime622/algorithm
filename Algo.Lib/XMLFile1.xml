@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TransItemMapping>
+  <tag>
+    <com>component</com>
+    <priority>1</priority>
+  </tag>
+  <tag>
+    <com>IP</com>
+    <priority>2</priority>
+  </tag>
+  <tag>
+    <com>Version</com>
+    <priority>3</priority>
+  </tag>
+  <tag>
+    <com>Time</com>
+    <priority>4</priority>
+  </tag>
+  <splitchar>_</splitchar>
+</TransItemMapping>

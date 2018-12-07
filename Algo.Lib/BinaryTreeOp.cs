@@ -103,6 +103,8 @@ namespace Algo.Lib
 		/// <returns></returns>
 		public static TreeNode trimBST(TreeNode root, int L, int R)
 		{
+
+
 			if (root == null)
 				return root;
 
@@ -143,7 +145,7 @@ namespace Algo.Lib
 					return null;
 			}
 
-			if (root.val < R && root.val > L)
+			if (root.val <= R && root.val > L)
 			{
 				if (root.left != null)
 					trimBST(root.left, L, R);
@@ -151,7 +153,7 @@ namespace Algo.Lib
 					trimBST(root.right, L, R);
 			}
 
-
+			return null;
 		}
 	}
 }

@@ -42,17 +42,24 @@
     <Compile Include="BinaryNumberwithAlternatingBits.cs" />
     <Compile Include="BinaryTreeOp.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="DIString.cs" />
     <Compile Include="FindFileOp.cs" />
+    <Compile Include="LinkedNodeOp2.cs" />
     <Compile Include="ListNodeOp.cs" />
+    <Compile Include="NumOp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseOnlyLetters.cs" />
     <Compile Include="StringExt.cs" />
+    <Compile Include="StringOp.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algo.Model\Algo.Model.csproj">
       <Project>{48c39fde-94c1-4255-ab1c-34cf7f15015e}</Project>
       <Name>Algo.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
