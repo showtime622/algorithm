@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo.Lib", "Algo.Lib\Algo.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo.Model", "Algo.Model\Algo.Model.csproj", "{48C39FDE-94C1-4255-AB1C-34CF7F15015E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo.DesinPattern", "Algo.DesinPattern\Algo.DesinPattern.csproj", "{C6561FB4-5228-4BA0-9555-7EAF8380454A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{48C39FDE-94C1-4255-AB1C-34CF7F15015E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48C39FDE-94C1-4255-AB1C-34CF7F15015E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48C39FDE-94C1-4255-AB1C-34CF7F15015E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6561FB4-5228-4BA0-9555-7EAF8380454A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6561FB4-5228-4BA0-9555-7EAF8380454A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6561FB4-5228-4BA0-9555-7EAF8380454A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6561FB4-5228-4BA0-9555-7EAF8380454A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

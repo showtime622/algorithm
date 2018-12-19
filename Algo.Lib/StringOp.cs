@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Algo.Lib
 {
-	public class StringOp
+	public partial class StringOp
 	{
 		/// <summary>
 		/// Refernce: https://leetcode.com/problems/reverse-string-ii/
@@ -94,5 +94,69 @@ namespace Algo.Lib
 
 			return "";
 		}
+
+
+		public static int MaxCountOfWords(string s)
+		{
+			if (string.IsNullOrEmpty(s.Trim()))
+				return 0;
+
+			s = s.Trim();
+			int maxCount = 0;
+			int count = 0;
+
+			for(int i = 0; i < s.Length; i++)
+			{
+				if(s[i] == ' ')
+				{
+					maxCount = count > maxCount ? count : maxCount;
+					count = 0;
+				}
+				else
+				{
+					count++;
+				}
+			}
+
+			return maxCount;
+		}
+
+		/// <summary>
+		/// reference: https://leetcode.com/problems/length-of-last-word/
+		/// 
+		/// Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
+		///If the last word does not exist, return 0.
+		/// Input: "Hello World"
+		///Output: 5
+		/// 
+		/// </summary>
+		/// <param name="s"></param>
+		/// <returns></returns>
+		public static int LengthOfLastWord(string s)
+		{
+			if (string.IsNullOrEmpty(s.Trim()))
+			{
+				return 0;
+			}
+
+			s = s.Trim();
+
+			int count = 0;
+			for (int i = s.Length - 1; i >= 0; i--)
+			{
+				if (s[i] == ' ')
+				{
+					break;
+				}
+				else
+				{
+					count++;
+				}
+			}
+
+			return count;
+		}
+
+	
 	}
 }

@@ -7,6 +7,7 @@ using System.IO;
 using System.Globalization;
 using Algo.Lib;
 using Algo.Model;
+using System.Diagnostics;
 
 namespace AlgorithmConsole
 {
@@ -21,92 +22,103 @@ namespace AlgorithmConsole
         public int count = 0;
         static void Main(string[] args)
         {
-			DateTime date = Convert.ToDateTime("09:20");
+			string filePath = @"C:\SubTest.reg";
 
-			List<string> l1 = new List<string>();
-			l1.Add("1");
-			l1.Add("2");
+			ProcessStartInfo startInfo = new ProcessStartInfo("regedit.exe", "/s " + filePath);
 
-			List<string> l2 = new List<string>();
-			l2.Add("3");
-			l2.Add("4");
+			startInfo.CreateNoWindow = true;
+			startInfo.UseShellExecute = true;
 
-			l1.AddRange(l2);
-
-			ListNode newNode = new ListNode(1);
-			newNode.next = new ListNode(1);
-			newNode.next.next = new ListNode(2);
-
-			ListNode node2 = new ListNode(1);
-			node2.next = new ListNode(1);
-			node2.next.next = new ListNode(2);
-			node2.next.next.next = new ListNode(3);
-			node2.next.next.next.next = new ListNode(3);
-
-			ListNode node3 = new ListNode(1);
-			node3.next = new ListNode(1);
-
-			ListNode node4 = null;
-
-			ListNode node5 = new ListNode(1);
-
-			ListNode node6 = new ListNode(1);
-			node6.next = new ListNode(2);
-			node6.next.next = new ListNode(3);
-			node6.next.next.next = new ListNode(3);
-			node6.next.next.next.next = new ListNode(3);
+			Process proc = Process.Start(startInfo);
+			proc.WaitForExit();
 
 
-			ListNodeOp.DeleteDuplicates(newNode);
-			ListNodeOp.DeleteDuplicates(node2);
-			ListNodeOp.DeleteDuplicates(node3);
-			ListNodeOp.DeleteDuplicates(node4);
-			ListNodeOp.DeleteDuplicates(node5);
-			ListNodeOp.DeleteDuplicates(node6);
+		//	DateTime date = Convert.ToDateTime("09:20");
+
+		//	List<string> l1 = new List<string>();
+		//	l1.Add("1");
+		//	l1.Add("2");
+
+		//	List<string> l2 = new List<string>();
+		//	l2.Add("3");
+		//	l2.Add("4");
+
+		//	l1.AddRange(l2);
+
+		//	ListNode newNode = new ListNode(1);
+		//	newNode.next = new ListNode(1);
+		//	newNode.next.next = new ListNode(2);
+
+		//	ListNode node2 = new ListNode(1);
+		//	node2.next = new ListNode(1);
+		//	node2.next.next = new ListNode(2);
+		//	node2.next.next.next = new ListNode(3);
+		//	node2.next.next.next.next = new ListNode(3);
+
+		//	ListNode node3 = new ListNode(1);
+		//	node3.next = new ListNode(1);
+
+		//	ListNode node4 = null;
+
+		//	ListNode node5 = new ListNode(1);
+
+		//	ListNode node6 = new ListNode(1);
+		//	node6.next = new ListNode(2);
+		//	node6.next.next = new ListNode(3);
+		//	node6.next.next.next = new ListNode(3);
+		//	node6.next.next.next.next = new ListNode(3);
 
 
-
-			//int[] arr1 = DIString.DiStringMatch("IDID");
-			//int[] arr2 = DIString.DiStringMatch("III");
-			//int[] arr3 = DIString.DiStringMatch("DDI");
-			//int[] arr4 = DIString.DiStringMatch("DDD");
-			//int[] arr5 = DIString.DiStringMatch("D");
-			//int[] arr6 = DIString.DiStringMatch("I");
-			//int[] arr7 = DIString.DiStringMatch("IIDD");
-			//int[] arr8 = DIString.DiStringMatch("DDII");
-			//int[] arr9 = DIString.DiStringMatch("DII");
-
+		//	ListNodeOp.DeleteDuplicates(newNode);
+		//	ListNodeOp.DeleteDuplicates(node2);
+		//	ListNodeOp.DeleteDuplicates(node3);
+		//	ListNodeOp.DeleteDuplicates(node4);
+		//	ListNodeOp.DeleteDuplicates(node5);
+		//	ListNodeOp.DeleteDuplicates(node6);
 
 
 
+		//	//int[] arr1 = DIString.DiStringMatch("IDID");
+		//	//int[] arr2 = DIString.DiStringMatch("III");
+		//	//int[] arr3 = DIString.DiStringMatch("DDI");
+		//	//int[] arr4 = DIString.DiStringMatch("DDD");
+		//	//int[] arr5 = DIString.DiStringMatch("D");
+		//	//int[] arr6 = DIString.DiStringMatch("I");
+		//	//int[] arr7 = DIString.DiStringMatch("IIDD");
+		//	//int[] arr8 = DIString.DiStringMatch("DDII");
+		//	//int[] arr9 = DIString.DiStringMatch("DII");
 
 
 
 
 
-		string date1 = "20181203141222";
-			string date2 = "20181203141233";
 
-			DateTime date3 = DateTime.ParseExact(date1, "yyyyMMddHHmmss", CultureInfo.InvariantCulture);
+
+
+
+		//string date1 = "20181203141222";
+		//	string date2 = "20181203141233";
+
+		//	DateTime date3 = DateTime.ParseExact(date1, "yyyyMMddHHmmss", CultureInfo.InvariantCulture);
 			
 
-			List<string> list = new List<string>();
-			list.Add("Tran_10.222.29.196_9.7.3.0_20181204152545");
-			list.Add("Tran_10.222.29.196_9.7.3.0_20181204153545");
-			list.Add("Tran_10.222.29.195_9.7.3.0_20181204152555");
+		//	List<string> list = new List<string>();
+		//	list.Add("Tran_10.222.29.196_9.7.3.0_20181204152545");
+		//	list.Add("Tran_10.222.29.196_9.7.3.0_20181204153545");
+		//	list.Add("Tran_10.222.29.195_9.7.3.0_20181204152555");
 
-			List<string> list2 = list.OrderBy(t => t.Split(new char[] {'_' })[3]).ToList();
+		//	List<string> list2 = list.OrderBy(t => t.Split(new char[] {'_' })[3]).ToList();
 
 
 
-			Dictionary<string, int> dic = new Dictionary<string, int>();
+		//	Dictionary<string, int> dic = new Dictionary<string, int>();
 
-			dic.Add("component", 0);
-			dic.Add("IP", 1);
+		//	dic.Add("component", 0);
+		//	dic.Add("IP", 1);
 			
-			dic.Add("time", 3);
-			dic.Add("version", 2);
-			dic = dic.OrderBy(t => t.Value).ToDictionary(t => t.Key, t => t.Value);
+		//	dic.Add("time", 3);
+		//	dic.Add("version", 2);
+		//	dic = dic.OrderBy(t => t.Value).ToDictionary(t => t.Key, t => t.Value);
 
 
 			
